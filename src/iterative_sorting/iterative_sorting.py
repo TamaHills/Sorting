@@ -32,7 +32,6 @@ def bubble_sort(arr):
 # STRETCH: implement the Count Sort function below
 
 
-print(bubble_sort(random.sample(range(30), 10)))
 
 
 

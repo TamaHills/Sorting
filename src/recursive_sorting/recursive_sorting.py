@@ -2,11 +2,10 @@ import random
 
 # TO-DO: complete the helpe function below to merge 2 sorted arrays
 def merge( arrA, arrB ):
-    
-    if arrA[0] > arrB[-1]:
-        return arrB + arrA 
-    elif arrB[0] > arrA[-1]:
-        return arrA + arrB
+    # if arrA[0] > arrB[-1]:
+    #     return arrB + arrA 
+    # elif arrB[0] > arrA[-1]:
+    #     return arrA + arrB
     elements = len( arrA ) + len( arrB )
     merged_arr = [0] * elements 
     for i in range(elements):
